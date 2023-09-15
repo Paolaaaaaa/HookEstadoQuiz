@@ -11,11 +11,11 @@
 },{
     "Title":"Cómo se define un nuevo estado?",
     "Response":"Primero se importa 'useState' de 'react', para que dentro de la función en la que se a crado un componente se llama a la función con el valor inicial que va a tomar la variable a la que vamos cambiar de estado en ejeción. Así mismo se decontruye el retorno de esa función a la misma variable, y una función que permita manipular el cambio. A continuación un ejemplo de como se ve esto en código: ",
-    "Image":""
+    "Image":"https://github.com/Paolaaaaaa/silver-umbrella/blob/main/IMG_quiz_react/segunda_pregunta.PNG?raw=true"
 },{
     "Title":"F o V ... El inicializador del estado puede ser una función.",
     "Response":"Verdadero, siempre y cuando la función retorne un valor valido que permita inicializar una variable.",
-    "Image":"https://github.com/Paolaaaaaa/silver-umbrella/blob/main/IMG_quiz_react/segunda_pregunta.PNG?raw=true"
+    "Image":""
 },
 {
     "Title":"Qué es el virtual DOM",
