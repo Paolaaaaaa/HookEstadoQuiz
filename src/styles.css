@@ -51,3 +51,31 @@ body {
     background-color: rgb(131, 131, 129);
 }
 
+h1{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    background-color: azure;
+}
+h3{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(243, 243, 243);
+}
+.Response{
+    justify-content: center;
+    align-items: center;
+
+}
+
+img{
+    justify-content: center;
+}
+
+.img_div{
+    justify-content: center;
+    align-items: center;
+    margin-left: 25%;
+
+}

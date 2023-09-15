@@ -1,6 +1,24 @@
-{
+[{
     "Title":"Today's Quiz",
     "Response":"Hoy vamos a hacer un quiz sobre react y useState!",
     
-    "image":""
-}
+    "Image":"https://www.show.news/__export/1567201752167/sites/debate/img/2019/08/30/gato_png_crop1567201738546.jpg_1902800913.jpg"
+},
+{
+    "Title":"Cómo se define un nuevo componente en React?",
+    "Response":"",
+    "Image":""
+},{
+    "Title":"Cómo se define un nuevo estado?",
+    "Response":"",
+    "Image":""
+},{
+    "Title":"F o V ... El inicializador del estado puede ser una función.",
+    "Response":"",
+    "Image":""
+},
+{
+    "Title":"Qué es el virtual DOM",
+    "Response":"",
+    "Image":""
+}]

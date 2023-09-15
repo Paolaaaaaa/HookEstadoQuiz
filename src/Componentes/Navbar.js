@@ -1,25 +1,17 @@
 
 import {useState} from "react"
-
+import Records from './pages/page_0.json'
 
 
 
 export default function Navbar(Props){
 
-    function fetch_data(){
-        fetch("./pages/page_"+String(page)+".json").then((res) => {
-            if (!res.ok) {
-              throw new Error('El json está malo');
-            }
-            return res.json();
-          });
-      }
+    
     const [page,  setPage] = useState(0);
 
     const render_1_page = () => {
-        let data=fetch_data(page);
-        console.log(data);
-        return data;
+        
+        return Records[page];
       };
 
     const handle_next_page = () => {
@@ -49,10 +41,19 @@ export default function Navbar(Props){
 
 
         <div className="page_info" color="black">
-        <h3>Usted está en la página: {page}</h3>
-        <di>
-            <p1>{render_1_page()}</p1>
-        </di>
+        <h4>Usted está en la página: {page}</h4>
+        <div className="Title_quest">
+            <h1 >{render_1_page()["Title"]}</h1>
+        </div>
+
+        <div className="Response">
+            <h3>{render_1_page()["Response"]}</h3>
+            
+        </div>
+
+        <div className="img_div">
+                <img src={render_1_page()["Image"]} width="300" height=""  />
+            </div>
         </div>
         </div>
     
