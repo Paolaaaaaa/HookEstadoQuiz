@@ -42,6 +42,8 @@ export default function Navbar(Props){
 
         <div className="page_info" color="black">
         <h4>Usted está en la página: {page}</h4>
+        <h4>Paola Andrea Campiño, 202020785</h4>
+
         <div className="Title_quest">
             <h1 >{render_1_page()["Title"]}</h1>
         </div>
@@ -52,7 +54,7 @@ export default function Navbar(Props){
         </div>
 
         <div className="img_div">
-                <img src={render_1_page()["Image"]} width="300" height=""  />
+                <img src={render_1_page()["Image"]} width="500" height=""  />
             </div>
         </div>
         </div>
