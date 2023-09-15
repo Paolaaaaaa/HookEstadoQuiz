@@ -1,0 +1,53 @@
+*{
+    box-sizing: border-box;
+    align-items: center;
+
+}
+body {
+    margin: 0;
+
+}
+
+.nav{
+    background-color: rgb(5, 5, 5);
+    color: white;
+    display: flex;
+    justify-content: center;     
+    align-items: stretch;
+    
+}
+.nav ul{
+    padding: 0;
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    margin: 5%;
+    list-style: none;
+    text-align: center;
+    justify-content: center;     
+    
+}
+
+.nav a {
+    color: inherit;
+    font-size: xx-large;
+    align-items: center;
+}
+
+.nav button {
+    color: black;
+    font-size: xx-large;
+    align-items: center;
+}
+.nav li{
+    align-items: center;
+    justify-content: center;     
+
+}
+.nav li:active{
+    background-color: rgb(216, 218, 218);
+}
+.nav li:hover{
+    background-color: rgb(131, 131, 129);
+}
+
